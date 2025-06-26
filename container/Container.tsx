@@ -11,7 +11,9 @@ export default function Container({ children }: ContainerProps) {
       <header>
         <Navbar />
       </header>
-      <main className="flex items-center justify-center">{children}</main>
+      <main className="flex items-center justify-center overflow-x-hidden">
+        {children}
+      </main>
     </div>
   );
 }
