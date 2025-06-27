@@ -17,7 +17,7 @@ export default function HeroPage() {
           <h1 className="text-9xl text-white font-extrabold">Happy Meal</h1>
           <button
             type="button"
-            className="bg-[#FF8411] text-white px-4 py-2 rounded-lg"
+            className="bg-[#FF8411] text-white px-4 py-2 rounded-lg cursor-pointer"
           >
             Order Now
           </button>
